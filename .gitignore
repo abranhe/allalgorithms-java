@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+*.iml
+classes
+out
+target
+
+pom.xml.*
+release.properties
