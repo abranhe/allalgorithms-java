@@ -11,6 +11,8 @@
 </div>
 
 <p align="center">
+    <a href="https://search.maven.org/#artifactdetails%7Ccom.abranhe%7Callalgorithms"><img src="https://maven-badges.herokuapp.com/maven-central/com.abranhe/allalgorithms/badge.svg"></a>
+    <a href="https://www.javadoc.io/doc/com.abranhe/allalgorithms"><img src="https://www.javadoc.io/badge/com.abranhe/allalgorithms.svg" alt="Javadocs"></a>
 	<a href="https://travis-ci.org/allalgorithms/java-lib"><img src="https://img.shields.io/travis/allalgorithms/java-lib.svg?logo=travis" /></a>
 	<a href="https://github.com/abranhe/python-lib/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/java-lib.svg" /></a>
 	<a href="https://github.com/allalgorithms"><img src="https://cdn.abranhe.com/projects/algorithms/badge.svg"/></a>
@@ -23,28 +25,41 @@
 	<a href="https://java.allalgorithms.com"><code>java.allalgorithms.com</code></a>
 </p>
 
-# Why?
+## Why?
 
-- Why not 😂
-- Clean and focused
-- Actively maintained
-- Because All Algorithms should be easy to use in Python
+- Why not 😂??
+- Clean and focused.
+- Actively maintained.
+- Because All Algorithms should be easy to use in Java.
 
-Read the detailed documentation at [python.allalgorithms.com](https://python.allalgorithms.com) or see the [`docs`](https://github.com/abranhe/python-lib/blob/master/docs) directory on Github. See [Tree](#tree).
+Read the detailed documentation at [java.allalgorithms.com](https://java.allalgorithms.com). See the [All ▲lgorithms Tree](#tree).
 
 **Want to contribute?** [GET STARTED HERE](https://github.com/abranhe/java-lib/tree/master/.github/contributing.md)
 
-Dependency Information
-Download the latest version JAR to include it in your project
+## Dependency Information
 
-### Maven
+*Download the latest version JAR to include it in your project*
+
+#### Maven
 
 ```xml
 <dependency>
-        <groupId>com.abranhe.bigdecimal</groupId>
-        <artifactId>bigdecimal</artifactId>
-        <version>1.0.1</version>
+        <groupId>com.abranhe.allalgorithms</groupId>
+        <artifactId>allalgorithms</artifactId>
+        <version>0.0.1</version>
 </dependency>
+```
+
+#### Gradle
+
+```
+compile 'com.abranhe:bigdecimal:0 .0.1'
+``` 
+
+## Import 
+
+```
+import com.abranhe.allalgorithms.*;
 ```
 
 ## Usage

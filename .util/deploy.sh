@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Automatic Javadocs deploy to gh-pages branch
+# Automatic Javadoc deploy to gh-pages branch
 
 SLUG="abranhe/java-lib"
 JDK="oraclejdk8"
