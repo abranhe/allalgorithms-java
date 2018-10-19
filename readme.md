@@ -1,5 +1,5 @@
 <div align="center">
-	<a href="https://java.allalgorithms.com/"><img src="https://cdn.abranhe.com/projects/algorithms/logo.svg" width="30%">
+	<a href="https://java.allalgorithms.com"><img src="https://cdn.abranhe.com/projects/algorithms/logo.svg" width="30%">
 	</a>
 	<br>
 	<br>
@@ -54,9 +54,9 @@ Read the detailed documentation at [java.allalgorithms.com](https://java.allalgo
 
 ```
 compile 'com.abranhe:bigdecimal:0 .0.1'
-``` 
+```
 
-## Import 
+## Import
 
 ```
 import com.abranhe.allalgorithms.*;
@@ -69,7 +69,7 @@ import com.abranhe.allalgorithms.searches.*;
 
 public static void main(String[] args) {
     int[] arr = {7, 2, 1, 19};
-    
+
     MergeSort.sort(arr);
     // {1, 2, 7, 19}
 }
