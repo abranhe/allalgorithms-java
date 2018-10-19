@@ -13,7 +13,7 @@
 <p align="center">
     <a href="https://search.maven.org/#artifactdetails%7Ccom.abranhe%7Callalgorithms"><img src="https://maven-badges.herokuapp.com/maven-central/com.abranhe/allalgorithms/badge.svg"></a>
     <a href="https://www.javadoc.io/doc/com.abranhe/allalgorithms"><img src="https://www.javadoc.io/badge/com.abranhe/allalgorithms.svg" alt="Javadocs"></a>
-	<a href="https://travis-ci.org/allalgorithms/java-lib"><img src="https://img.shields.io/travis/allalgorithms/java-lib.svg?logo=travis" /></a>
+	<a href="https://travis-ci.org/abranhe/java-lib"><img src="https://img.shields.io/travis/abranhe/java-lib.svg?logo=travis" /></a>
 	<a href="https://github.com/abranhe/python-lib/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/java-lib.svg" /></a>
 	<a href="https://github.com/allalgorithms"><img src="https://cdn.abranhe.com/projects/algorithms/badge.svg"/></a>
 	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
