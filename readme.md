@@ -1,5 +1,5 @@
 <div align="center">
-	<a href="https://pypi.org/project/allalgorithms"><img src="https://cdn.abranhe.com/projects/algorithms/logo.svg" width="30%">
+	<a href="https://java.allalgorithms.com/"><img src="https://cdn.abranhe.com/projects/algorithms/logo.svg" width="30%">
 	</a>
 	<br>
 	<br>
