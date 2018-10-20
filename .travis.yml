@@ -8,6 +8,10 @@ jdk:
 notifications:
   email: false
 
+env:
+  global:
+    secure: EfPAmwQEQO9Ku2ijDR6Ju3agWOOWLS+rJBv9UQELsX4+Nu2aX/xloBexW6xS6syMxu1F/xDTYvhZRZFzkQjWefZBxKZtJwZv3gRHUc3xh+kYKnxiD1QN3e3tU9BC4h/Ka1gZFwCOQc042MxfJEMnSGwL85BYdyhheACBUCV19ZO9Ft+E31XsOQyBmeB5ma7Gtig4abPR1s1ccFiOrO8TzBXozl7gWoSNtjtihsTc9aQHSwP8mOdy0gr7ZEqHauwj+75B427D233r9Ezn+DlHZ4B8rNs6f39gbIvEGt7+jJt0GJ0KYb84PKi6PRwbHdaQQNhG+un3TC0mYIkdUx7HvcuYfOJlZQsaiS4Vnsc5czDRbhJb6yMf6TWKlCUONQieiQdZCk1cKyRVfMVcTbtZp+0+fsvYuOVm+wlhYnSLdaPuR+OZhtxUDf4UJg7C0vWXYXzY5JjWJ6O9bUn+1YQL1jSiDAbwm+OTKB/oKR93Q++OZOW1kpm6XLJBN6vk24I49qjsrFVr6TQUUFryxupFTOsyqTsQwKUSwEIBaLyym85+mnM5Qd8E+bPqmhm0Tzbod0RIqxik6afcjPkLKpDi3sVUxEdd6/YYoiW8Jz5yVjLkkFaNqE6QmMVx4K5StPMmcC38MKgStx+/inXmaC+daKashYdInE2xKYWyYA+dm5A=
+
 cache:
   directories:
   - "$HOME/.m2"
