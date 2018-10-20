@@ -11,7 +11,7 @@
 </div>
 
 <p align="center">
-    <a href="https://search.maven.org/#artifactdetails%7Ccom.abranhe%7Callalgorithms"><img src="https://maven-badges.herokuapp.com/maven-central/com.abranhe/allalgorithms/badge.svg"></a>
+    <a href="https://search.maven.org/search?q=g:%22com.abranhe%22%20AND%20a:%22allalgorithms%22"><img src="https://img.shields.io/maven-central/v/com.abranhe/allalgorithms.svg?label=Maven%20Central"></a>
     <a href="https://www.javadoc.io/doc/com.abranhe/allalgorithms"><img src="https://www.javadoc.io/badge/com.abranhe/allalgorithms.svg" alt="Javadocs"></a>
 	<a href="https://travis-ci.org/abranhe/allalgorithms-java"><img src="https://img.shields.io/travis/abranhe/allalgorithms-java.svg?logo=travis" /></a>
 	<a href="https://github.com/abranhe/allalgorithms-java/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/allalgorithms-java.svg" /></a>
@@ -53,12 +53,32 @@ Read the detailed documentation at [java.allalgorithms.com](https://java.allalgo
 #### Gradle
 
 ```
-compile 'com.abranhe:bigdecimal:0 .0.1'
+compile 'com.abranhe:bigdecimal:0.0.1'
 ```
 
-## Import
+#### Apache Ivy
+
+```xml
+<dependency org="com.abranhe" name="allalgorithms" rev="0.0.1" />
+```
+
+#### Groovy Grape
+
+```groovy
+@Grapes(
+  @Grab(group='com.abranhe', module='allalgorithms', version='0.0.1')
+)
+```
+
+#### Apache Builder
 
 ```
+'com.abranhe:allalgorithms:jar:0.0.1'
+```
+
+### Using it in your project?
+
+```java
 import com.abranhe.allalgorithms.*;
 ```
 
