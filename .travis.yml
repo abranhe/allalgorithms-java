@@ -10,10 +10,6 @@ install:
 
 script:
   - mvn test -B
-  
-branches:
-  only:
-    - master
 
 env:
   global:
