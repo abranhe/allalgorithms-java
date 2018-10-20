@@ -5,8 +5,11 @@ sudo: false
 jdk:
 - oraclejdk8
 
-notifications:
-  email: false
+install:
+    mvn --settings .util/.maven.xml install -DskipTests=true -Dgpg.skip -Dmaven.javadoc.skip=true -B -V
+
+script:
+  - mvn test -B
 
 env:
   global:
@@ -15,3 +18,6 @@ env:
 cache:
   directories:
   - "$HOME/.m2"
+
+notifications:
+  email: false
