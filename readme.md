@@ -13,8 +13,8 @@
 <p align="center">
     <a href="https://search.maven.org/#artifactdetails%7Ccom.abranhe%7Callalgorithms"><img src="https://maven-badges.herokuapp.com/maven-central/com.abranhe/allalgorithms/badge.svg"></a>
     <a href="https://www.javadoc.io/doc/com.abranhe/allalgorithms"><img src="https://www.javadoc.io/badge/com.abranhe/allalgorithms.svg" alt="Javadocs"></a>
-	<a href="https://travis-ci.org/allalgorithms/java-lib"><img src="https://img.shields.io/travis/allalgorithms/java-lib.svg?logo=travis" /></a>
-	<a href="https://github.com/abranhe/python-lib/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/java-lib.svg" /></a>
+	<a href="https://travis-ci.org/abranhe/allalgorithms-java"><img src="https://img.shields.io/travis/abranhe/allalgorithms-java.svg?logo=travis" /></a>
+	<a href="https://github.com/abranhe/allalgorithms-java/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/allalgorithms-java.svg" /></a>
 	<a href="https://github.com/allalgorithms"><img src="https://cdn.abranhe.com/projects/algorithms/badge.svg"/></a>
 	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
 </p>
@@ -34,7 +34,7 @@
 
 Read the detailed documentation at [java.allalgorithms.com](https://java.allalgorithms.com). See the [All ▲lgorithms Tree](#tree).
 
-**Want to contribute?** [GET STARTED HERE](https://github.com/abranhe/java-lib/tree/master/.github/contributing.md)
+**Want to contribute?** [GET STARTED HERE](https://github.com/abranhe/allalgorithms-java/tree/master/.github/contributing.md)
 
 ## Dependency Information
 
@@ -89,8 +89,8 @@ public static void main(String[] args) {
 
 # Related
 
-- [javascript-lib](https://github.com/abranhe/javascript-lib): All ▲lgorithms Javascript library
-- [python-lib](https://github.com/abranhe/python-lib): All ▲lgorithms Python library
+- [allalgorithms-javascript](https://github.com/abranhe/allalgorithms-javascript): The All ▲lgorithms Javascript Library
+- [allalgorithms-python](https://github.com/abranhe/allalgorithms-python): The All ▲lgorithms Python Library
 
 # Maintainers
 
@@ -105,10 +105,10 @@ public static void main(String[] args) {
 
 <!-------------------Markdown Images Links ---------------------------------->
 [1]: https://cdn.abranhe.com/projects/algorithms/badge.svg
-[2]: https://github.com/abranhe/python-lib
+[2]: https://github.com/abranhe/allalgorithms-java
 [3]: https://avatars3.githubusercontent.com/u/21347264?s=50
 [4]: https://github.com/abranhe
-[5]: https://github.com/abranhe/java-lib/blob/master/license
+[5]: https://github.com/abranhe/allalgorithms-java/blob/master/license
 <!-------------------Markdown Images Links ---------------------------------->
 
 <div align="center">
