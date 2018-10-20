@@ -153,20 +153,20 @@
   </distributionManagement>
 
   <scm>
-    <url>http://github.com/abranhe/java-lib/</url>
-    <connection>scm:git:git://github.com/abranhe/java-lib.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/abranhe/java-lib.git</developerConnection>
+    <url>http://github.com/abranhe/allalgorithms-java/</url>
+    <connection>scm:git:git://github.com/abranhe/allalgorithms-java.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/abranhe/allalgorithms-java.git</developerConnection>
   </scm>
 
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>http://github.com/abranhe/java-lib/issues</url>
+    <url>http://github.com/abranhe/allalgorithms-java/issues</url>
   </issueManagement>
 
   <licenses>
     <license>
       <name>MIT License</name>
-      <url>https://github.com/abranhe/java-lib/blob/master/license</url>
+      <url>https://github.com/abranhe/allalgorithms-java/blob/master/license</url>
     </license>
   </licenses>
 
