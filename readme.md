@@ -38,7 +38,7 @@ Read the detailed documentation at [java.allalgorithms.com](https://java.allalgo
 
 ## Dependency Information
 
-*Download the latest version JAR to include it in your project*
+*Download the latest AAR from [Maven Central](https://search.maven.org/search?q=g:%22com.abranhe%22%20AND%20a:%22allalgorithms%22) or grab via Gradle:*
 
 #### Maven
 
