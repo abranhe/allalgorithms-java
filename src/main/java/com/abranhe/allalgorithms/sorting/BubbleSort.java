@@ -20,21 +20,45 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.abranhe.allalgorithms.math;
 
-import org.junit.Test;
+package com.abranhe.allalgorithms.sorting;
 
-import static org.junit.Assert.*;
+/**
+ * The class {@code BubbleSort} contains the methods to perform a sorting with
+ * the <b>Bubble Sort Algorithm</b>. For more information about bubble sort
+ * algorithm you can read on line or visit the documentation on
+ * <a href="https://en.wikipedia.org/wiki/Bubble_sort">Wikipedia</a>.
+ *
+ * @author Carlos Abraham Hernandez
+ * @since 0.0.2
+ */
+public class BubbleSort {
 
-public class FibonacciTest {
+  /**
+   * This class should not be instantiated.
+   */
+  private BubbleSort() {
+  }
 
-    @Test
-    public void term() {
-        assertEquals(5, Fibonacci.term(5));
-        assertEquals(13, Fibonacci.term(7));
-        assertEquals(21, Fibonacci.term(8));
-        assertEquals(233, Fibonacci.term(13));
-        assertEquals(1597, Fibonacci.term(17));
-        assertEquals(4181, Fibonacci.term(19));
+  /**
+   * Sort an array of Generic Type in acending order. Returns an array with the
+   * values already sorted.
+   * 
+   * @param arr an input array with unsorted items
+   * @return array of type <pre><E></pre> with items already sorted.
+   */
+  @SuppressWarnings("unchecked")
+  public static <E> E[] sort(E[] arr) {
+    for (int i = 0; i < arr.length - 1; i++) {
+      for (int j = 0; j < arr.length - i - 1; j++) {
+        int diff = ((Comparable<Object>) arr[j]).compareTo(((Comparable<Object>) arr[j + 1]));
+        if (diff > 0) {
+          E temp = arr[j];
+          arr[j] = arr[j + 1];
+          arr[j + 1] = temp;
+        }
+      }
     }
+    return arr;
+  }
 }

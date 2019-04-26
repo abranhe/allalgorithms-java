@@ -28,7 +28,8 @@ import static org.junit.Assert.*;
 
 public class PalindromeTest {
 
-    @Test public void isPalinrome() {
+    @Test
+    public void isPalinrome() {
         assertEquals(true, Palindrome.isPalindrome("Mr Owl ate my metal worm"));
         assertEquals(false, Palindrome.isPalindrome("How is it going?"));
     }

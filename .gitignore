@@ -4,6 +4,9 @@
 classes
 out
 target
-
+.vscode
+.settings
+.project
+.classpath
 pom.xml.*
 release.properties

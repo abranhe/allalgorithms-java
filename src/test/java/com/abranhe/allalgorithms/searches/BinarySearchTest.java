@@ -28,9 +28,10 @@ import static org.junit.Assert.*;
 
 public class BinarySearchTest {
 
-    private int[] arr = {-3, 0, 7, 19, 27, 30};
+    private int[] arr = { -3, 0, 7, 19, 27, 30 };
 
-    @Test public void recursiveBinarySearch() {
+    @Test
+    public void recursiveBinarySearch() {
         assertEquals(0, BinarySearch.search(arr, 0, arr.length - 1, -3));
         assertEquals(1, BinarySearch.search(arr, 0, arr.length - 1, 0));
         assertEquals(2, BinarySearch.search(arr, 0, arr.length - 1, 7));
@@ -39,7 +40,8 @@ public class BinarySearchTest {
         assertEquals(5, BinarySearch.search(arr, 0, arr.length - 1, 30));
     }
 
-    @Test public void binarySearch() {
+    @Test
+    public void binarySearch() {
         assertEquals(0, BinarySearch.search(arr, 0, arr.length - 1, -3));
         assertEquals(1, BinarySearch.search(arr, 0, arr.length - 1, 0));
         assertEquals(2, BinarySearch.search(arr, 0, arr.length - 1, 7));
@@ -48,21 +50,23 @@ public class BinarySearchTest {
         assertEquals(5, BinarySearch.search(arr, 0, arr.length - 1, 30));
     }
 
-    @Test public void recursiveBinarySearchShort() {
+    @Test
+    public void recursiveBinarySearchShort() {
         assertEquals(0, BinarySearch.search(arr, -3));
-        assertEquals(1, BinarySearch.search(arr,0));
-        assertEquals(2, BinarySearch.search(arr,7));
-        assertEquals(3, BinarySearch.search(arr,19));
-        assertEquals(4, BinarySearch.search(arr,27));
-        assertEquals(5, BinarySearch.search(arr,30));
+        assertEquals(1, BinarySearch.search(arr, 0));
+        assertEquals(2, BinarySearch.search(arr, 7));
+        assertEquals(3, BinarySearch.search(arr, 19));
+        assertEquals(4, BinarySearch.search(arr, 27));
+        assertEquals(5, BinarySearch.search(arr, 30));
     }
 
-    @Test public void binarySearchShort() {
+    @Test
+    public void binarySearchShort() {
         assertEquals(0, BinarySearch.search(arr, -3));
-        assertEquals(1, BinarySearch.search(arr,0));
-        assertEquals(2, BinarySearch.search(arr,7));
-        assertEquals(3, BinarySearch.search(arr,19));
-        assertEquals(4, BinarySearch.search(arr,27));
-        assertEquals(5, BinarySearch.search(arr,30));
+        assertEquals(1, BinarySearch.search(arr, 0));
+        assertEquals(2, BinarySearch.search(arr, 7));
+        assertEquals(3, BinarySearch.search(arr, 19));
+        assertEquals(4, BinarySearch.search(arr, 27));
+        assertEquals(5, BinarySearch.search(arr, 30));
     }
 }
